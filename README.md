@@ -4,7 +4,7 @@
  -> Human Activity Recognition Using Smartphones
 
 * Files:
--> CodeBook.md -contains the information for all data transformation to clean and organize the data. 
+-> CodeBook.md -contains the information for all data transformation to clean and organize the data
 -> run_analysis.R - contains the code for all steps described on the code book:
 . Create a unique set of data by merging test and train data
 . Extracts only the measurements on the mean and standard deviation for each measurement
