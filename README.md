@@ -1,7 +1,7 @@
 # Getting_and_Cleaning_Data_Course_Project
 
 * Dataset:
-## Human Activity Recognition Using Smartphones
+-- Human Activity Recognition Using Smartphones
 
 * Files:
   ##CodeBook.md -contains the information for all data transformation to clean and organize the data 
