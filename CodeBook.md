@@ -1,11 +1,12 @@
 
 In order to execute the run_analysis.R script, it is needed to prepare the data and follow the steps bellow.
 
-1-  Download the needed data:
-	filename <- "Data.zip"
-	fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-  	download.file(fileURL, filename, method="curl")
-  	unzip(filename)
+1-  Download the needed data
+
+	+ filename <- "Data.zip"
+	+ fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+  	+ download.file(fileURL, filename, method="curl")
+  	+ unzip(filename)
 
  2- Assign data to variable:
  	* features <- features.txt
