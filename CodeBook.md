@@ -34,18 +34,22 @@ In order to execute the run_analysis.R script, it is needed to prepare the data 
 	   represents rain data of activities’code labels
 
  3- Create a unique set of data by merging test and train data
+ 
 	Use rbind function to create x 
 	Use rbind function to create y
 	Merge subject_train and subject_test using rbind()
 	Create Merged_Data by mergingSubject, Y and X using cbind function
 
  4-  Extracts only the measurements on the mean and standard deviation for each measurement
+ 
 	Create TidySelectedData - for each measurement, Merged_Data, selecting only columns: subject, code and the measurements on the mean and standard deviation (std)
 	
  5- Uses descriptive activity names to name the activities in the data set
+ 
     Use corresponding activity taken from activities variable to replace the code column on TidySelectedData
 
  6- Appropriately labels the data set with descriptive variable names
+ 
 	Replace Acc in column’s name by Accelerometer
 	Replace Gyro in column’s name by Gyroscope
 	Replace BodyBody in column’s name by Body
@@ -54,6 +58,7 @@ In order to execute the run_analysis.R script, it is needed to prepare the data 
 	Replace start with character t in column’s name by Time
 
  7- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
+ 
     * From summarizing TidySelectedData, exgracting the means of each variable (for each activity and each subject) after groupped by subject and activity 
 
 
